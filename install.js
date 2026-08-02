@@ -7,6 +7,7 @@ module.exports = {
       method: "shell.run",
       params: {
         venv: "env",
+        venv_python: "3.12",
         path: ".",
         message: [
           "uv pip install -r requirements-tortoise.txt",
